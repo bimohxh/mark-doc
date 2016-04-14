@@ -28,4 +28,4 @@ the first level menu is your every markdown file, and config in `./menu.js`.
 second level menu is your `<h1>` and the third level menu is `<h2>`
 
 
-![demo](assets/demo.png)
+![demo](assets/images/demo.png)
