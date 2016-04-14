@@ -1,0 +1,68 @@
+body{    font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 15px;     color: #34495e;   -webkit-font-smoothing: antialiased; margin: 0; padding: 0;}
+body, a {
+  color: #34495e;  
+}
+
+header{
+ background-color: #fff;    box-shadow: 0 0 4px rgba(0,0,0,0.25);
+    padding: 25px 60px;
+}
+
+header h2 {
+  text-align: center; font-family: "微软雅黑";     color: #929191;
+}
+header  .logo{
+  position: absolute;  left: 20px; top: 20px; font-size: 100px;
+}
+.container{
+  position: relative; padding-left: 200px;
+}
+.content{padding: 20px; padding-right: 100px}
+.leftbar{
+  width: 200px; height: 100%; position: absolute; left: 0; top: 0;    line-height: 20px;
+}
+
+.leftbar ul li{
+  list-style: none; margin: 5px 0;
+}
+
+.leftbar ul{
+  padding-left: 20px;
+}
+.leftbar ul li a{
+ text-decoration: none;
+}
+
+.leftbar .level-2{
+  font-size: 13px;
+}
+
+.leftbar .level-3{
+  font-size: 12px;
+}
+
+.leftbar.fixed{
+  position: fixed;
+}
+
+code{
+  padding: 2px 4px;    font-size: 90%;    color: #c7254e;
+    background-color: #f9f2f4;    border-radius: 4px;
+}
+pre code{
+  background-color: #f8f8f8;
+}
+
+
+pre[class*="language-"]{
+  background: #f8f8f8;    font-size: 13px;    line-height: 30px;text-shadow: none;
+}
+
+code, kbd, pre, samp {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+
+.active >  a{color: #42b983; font-weight: bold;}
+
